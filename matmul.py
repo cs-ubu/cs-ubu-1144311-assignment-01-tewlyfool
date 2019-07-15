@@ -1,6 +1,6 @@
 
-def readm(a):
-    a =open('b.csv','r')
+def readm(name):
+    a =open(name,'r')
     b =[]
     for i in a.readlines():
         b.append([float(x) for x  in i.strip().split(',')])
